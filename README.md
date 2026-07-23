@@ -1,76 +1,89 @@
-<h1 align="center">Arjun Kanse</h1>
-<h3 align="center">DevOps & Cloud Infrastructure Engineer — Docker · Kubernetes · Security Hardening · Backup & DR</h3>
+# Hi, I'm Arjun 👋
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/arjunkanse">
-    <img src="https://img.shields.io/badge/LinkedIn-arjunkanse-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:cyberpunkjeevan@gmail.com">
-    <img src="https://img.shields.io/badge/Email-cyberpunkjeevan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://wa.me/917276529006">
-    <img src="https://img.shields.io/badge/WhatsApp%20%2F%20Call-7276529006-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-  </a>
-</p>
+### DevOps-focused Full-Stack Developer | Docker & Kubernetes | Cloud Infrastructure & Security
+
+I take applications from "it runs on my machine" to properly containerized, secured, and production-ready —
+the same discipline real infrastructure teams use before trusting a system with customer data.
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Project-1a1a2e?style=for-the-badge)](https://cost-intelligence-platform-frontend.onrender.com)
+[![Featured Repo](https://img.shields.io/badge/Featured%20Repo-Cost%20Intelligence%20Platform-16213e?style=for-the-badge&logo=github)](https://github.com/jivann/cost-intelligence-platform)
 
 ---
 
-### About
+### 🚀 Featured Project — Cost Intelligence Platform
 
-I'm a freelance DevOps and cloud infrastructure engineer. I take applications that "run on someone's laptop" and turn them into hardened, deployable, production-grade systems — real containerization, real Kubernetes security primitives, real secrets management, real backup verification. Not checkbox DevOps.
+A full-stack multi-cloud cost analytics platform, built and hardened through a complete production-readiness process.
 
-I'm currently building my freelance client base from the ground up, with a focus on **Production Readiness Audits** for teams who have working code but haven't stress-tested it against real-world failure, security, and scale conditions.
+|                  |                                                                                                                                                |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔗 **Live Demo**  | [cost-intelligence-platform-frontend.onrender.com](https://cost-intelligence-platform-frontend.onrender.com) — register a free account to explore, or message me for a guided walkthrough |
+| 📂 **Repository** | [github.com/jivann/cost-intelligence-platform](https://github.com/jivann/cost-intelligence-platform) |
 
----
+**What makes this different from a typical portfolio project:**
 
-### What I Actually Do
+- 🐳 Multi-stage Docker builds — non-root containers, enforced at both image and Kubernetes level
+- ☸️ Full Kubernetes deployment — namespace isolation, RBAC, and **NetworkPolicies verified to actually block unauthorized traffic**, not just written and assumed
+- 🔐 Encrypted secrets management (Sealed Secrets) — plaintext credentials fully purged from git history
+- 🛡️ Vulnerability scanning (Trivy) integrated into the build pipeline, with every fixable CVE patched
+- 💾 Automated database backups with a **tested, verified restore process** — not a script nobody has ever run
+- 🔒 Real HTTPS via Ingress + cert-manager, plus a hardened security header set (CSP, HSTS, X-Frame-Options, Referrer-Policy, Permissions-Policy)
+- ⚙️ CI/CD pipeline with automatic test-gated deploy on push
 
-- **Containerization & Orchestration** — Docker multi-stage builds, Kubernetes deployments with RBAC, NetworkPolicies, namespace isolation, and resource governance (not just "it deploys")
-- **Secrets Management** — Sealed Secrets, credential rotation, purging plaintext secrets from git history the right way (rewritten, not just deleted)
-- **Network Security** — deny-all-by-default NetworkPolicies, TLS via cert-manager, verified (not assumed) service isolation
-- **Backup & Disaster Recovery** — automated backup jobs that are actually restore-tested, not just scheduled and forgotten
-- **CI/CD** — GitHub Actions pipelines with real test coverage gating deploys, not just a green checkmark for show
-
----
-
-### Featured Project — Cost Intelligence Platform
-
-A full-stack multi-cloud cost intelligence platform, built end-to-end and hardened through a genuine production-readiness process.
-
-**[Live Demo](https://cost-intelligence-platform-frontend.onrender.com)** · **[Source Code](https://github.com/jivann/cost-intelligence-platform)**
-
-[![CI](https://github.com/jivann/cost-intelligence-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/jivann/cost-intelligence-platform/actions/workflows/ci.yml)
-
-- React/TypeScript frontend, FastAPI backend, PostgreSQL + Redis, fully containerized
-- Kubernetes manifests with RBAC, NetworkPolicies, resource quotas, and namespace isolation across `frontend` / `backend` / `data`
-- Real rule-based anomaly detection (trailing 7-day cost average, severity tiering) — covered by automated tests, not just a demo
-- TLS via Nginx Ingress + cert-manager, Sealed Secrets for encrypted-at-rest credentials, Trivy vulnerability scanning in CI
-- **Honest scope**: the README explicitly separates what's real and tested from what's scaffolded UI — because a portfolio project should demonstrate engineering judgment, not just polish
-
-This project is the clearest proof of how I work: I test claims instead of assuming them. Backup restores are actually executed. Network isolation is actually verified. If something doesn't work yet, the docs say so.
+*Full breakdown of every decision and tradeoff is documented in the repo's README — I'd rather explain something honestly than oversell it.*
 
 ---
 
-### Currently
+### 🛠️ Tech Stack
 
-- Taking on freelance DevOps/infrastructure engagements — Docker/Kubernetes hardening, security audits, CI/CD setup, backup & DR implementation
-- Building **Cloud Cost Intelligence**, a SaaS product for multi-cloud spend visibility, as a longer-term venture
-- Writing high-signal DevOps content for engineers, founders, and CTOs on X/Twitter
+**Languages & Frameworks**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+
+**Infrastructure & DevOps**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square)
+
+**Data & Storage**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ---
 
-### Get In Touch
+### 💡 What I Actually Focus On
 
-I'm actively taking on new freelance projects. If you need infrastructure hardened, a deployment pipeline built, or an honest audit of what's actually production-ready in your stack — reach out.
+I'm not chasing every framework — I focus on the operational layer most freelance developers skip:
+
+- **Containerization done properly** — small, secure, multi-stage images, not `FROM ubuntu` with everything installed as root
+- **Kubernetes security fundamentals** — RBAC, NetworkPolicies, resource governance — understanding *why* each control exists, not just copy-pasting YAML
+- **Honest engineering** — documenting what works, what doesn't, and what's on the roadmap, instead of overselling
+- **Verification over assumption** — if I say backups work, I've actually run the restore. If I say a NetworkPolicy blocks traffic, I've tested it directly
+
+---
+
+### 🤝 Let's Work Together
+
+I'm available for freelance work on:
+
+- Dockerizing and hardening existing applications
+- Kubernetes deployment and security review
+- CI/CD pipeline setup
+- Cloud infrastructure cleanup and cost/security audits
+
+Reach out below, or check the live demo above to see the work firsthand before you decide.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/arjunkanse">
-    <img src="https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:cyberpunkjeevan@gmail.com">
-    <img src="https://img.shields.io/badge/-Email%20Me-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://wa.me/917276529006">
-    <img src="https://img.shields.io/badge/-WhatsApp%20or%20Call-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-  </a>
+  <a href="https://www.linkedin.com/in/arjunkanse"><img src="https://img.shields.io/badge/LinkedIn-arjunkanse-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:cyberpunkjeevan@gmail.com"><img src="https://img.shields.io/badge/Email-cyberpunkjeevan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://wa.me/917276529006"><img src="https://img.shields.io/badge/WhatsApp%20%2F%20Call-7276529006-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 </p>
+
+*Confidence built on things that are actually true, not claims that fall apart under a click-through.*
